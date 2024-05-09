@@ -40,7 +40,7 @@ br.mobile{display: inline;}
 .area_float .btn_top button{width: 3rem; height: 3rem; font-size: 1.9rem; border: .1rem solid #121212;}
 
 /* sections */
-.sec01 .text{left: 2rem; font-size: 3.2rem;}
+.sec01 .text{left: 2rem; font-size: 3.2rem; line-height: 1.2em;}
 .sec01 .bg_video{background-image: url(../resource/movie/mobile/01_M_moon_th.png);}
 .sec02 .text{padding:4.3rem 2.2rem 0; background-size: 1.5rem 1.3rem;}
 .sec02 .bg_video{background-image: url(../resource/movie/mobile/02_M_way_th.png);}
