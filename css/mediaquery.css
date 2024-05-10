@@ -10,8 +10,6 @@
 
 @media screen and (max-width:899px) {
 /* 모바일 가로, 타블렛 세로 */
-    .text{word-wrap: normal; word-break: keep-all;}
-    .sec01 .text{left: 44px;}
 }
 
 @media screen and (max-width:599px) {
