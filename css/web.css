@@ -112,7 +112,7 @@ label.disabled{color:#999;}
 .sec01 .text span > div {opacity: 0; display: inline;  font-size: 60px; line-height: 70px; }
 .sec01 .ico_scroll{ position: absolute; left: 50%; bottom: 80px; transform: translateX(-50%); width: 54px; height: 54px; background: url(../images/web/ico_scroll.png) 0 0 no-repeat; text-indent: -9999px; background-size: cover;}
 .bg_video { position: absolute; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; z-index: -1; }
-.sec01 .bg_video{ background: url(../images/web/01_W_moon_th.png) center center no-repeat; background-size: cover; }
+.sec01 .bg_video{ background: url(../resource/movie/web/01_W_moon_th.png) center center no-repeat; background-size: cover; }
 .bg_video::after{ display: block; position: absolute; left: 0;right: 0;top: 0;bottom: 0; z-index: 1; background: #121212; opacity: .75; content: ''; }
 .bg_video_content { height: 100%; width: 100%; object-fit: cover; }
 /* .js-random-fade span{opacity: 0;} */
@@ -123,7 +123,7 @@ label.disabled{color:#999;}
 .sec02 .text{ display: block; width: 100%; text-align: center; background: url(../images/web/img_txt_02_01.png) center top no-repeat; background-size: 30px 26px; padding-top: 86px; font-size: 38px; line-height: 70px; font-weight: 100; letter-spacing: -.6px; }
 .js-random-fade-sen > span, 
 .js-random-fade-sen > strong{opacity: 0; transition: opacity 1s; transform-style: preserve-3d;}
-.sec02 .bg_video{ background: url(../images/web/02_W_way_th.png) center center no-repeat; background-size: cover; }
+.sec02 .bg_video{ background: url(../resource/movie/web/02_W_way_th.png) center center no-repeat; background-size: cover; }
 .sec02 .bg_video_content{filter: blur(5px); -webkit-filter: blur(5px);}
 .sec02 .text div{ display: inline; }
 .sec02 .text strong{ font-weight: 400; }
