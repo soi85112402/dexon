@@ -115,7 +115,7 @@ label.disabled{color:#999;}
 .sec01 .bg_video{ background: url(../resource/movie/web/01_W_moon_th.png) center center no-repeat; background-size: cover; }
 .bg_video::after{ display: block; position: absolute; left: 0;right: 0;top: 0;bottom: 0; z-index: 1; background: #121212; opacity: .75; content: ''; }
 .bg_video_content { height: 100%; width: 100%; object-fit: cover; }
-/* .js-random-fade span{opacity: 0;} */
+.js-random-fade span{opacity: 0;}
 .js-random-fade span > div{ transition: opacity 1s; transform-style: preserve-3d;}
 
 /* section 02 */

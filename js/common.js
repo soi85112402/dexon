@@ -126,17 +126,17 @@ const setRandomFade = () => {
 
 const randomFade = (state) => {
   const randomArrays = getRandomArrays(20, 4);
-  // const parents = document.querySelector('.sec01');
-  // const parent = parents.querySelectorAll('.js-random-fade span');
+  const parents = document.querySelector('.sec01');
+  const parent = parents.querySelectorAll('.js-random-fade span');
   const selectors = document.querySelectorAll('.js-random-fade span > div');
 
   const opacityOn = (i) => {
     selectors[i].style.opacity = 1;
   };
   if (state) {
-    // parent.forEach((node, i) => {
-    //   node.style.opacity = 1;
-    // });
+    parent.forEach((node, i) => {
+      node.style.opacity = 1;
+    });
     randomArrays.forEach((arr, i) => {
       setTimeout(() => {
         arr.forEach(opacityOn);
@@ -160,8 +160,8 @@ const randomFade = (state) => {
 
 const randomFadeSen = (state) => {
   const randomArrays = [1, 4, 2, 7, 6, 9, 10, 11, 0, 3, 5, 8];
-  // const parents = document.querySelector('.sec02');
-  // const parent = parents.querySelectorAll('.js-random-fade span');
+  const parents = document.querySelector('.sec02');
+  const parent = parents.querySelectorAll('.js-random-fade span');
   const selectors = document.querySelectorAll(
     '.js-random-fade-sen > span,.js-random-fade-sen > strong'
   );
@@ -169,9 +169,9 @@ const randomFadeSen = (state) => {
   const opacityOn = (i, u) => (selectors[i].style.opacity = 1);
 
   if (state) {
-    // parent.forEach((node, i) => {
-    //   node.style.opacity = 1;
-    // });
+    parent.forEach((node, i) => {
+      node.style.opacity = 1;
+    });
     randomArrays.forEach((arr, i) => {
       setTimeout(() => opacityOn(arr), 50 * i);
     });
@@ -194,7 +194,7 @@ const randomFadeSen = (state) => {
 const randomFade10 = (state) => {
   const randomArrays = getRandomArrays(4, 4);
   const parents = document.querySelector('.sec10');
-  // const parent = parents.querySelectorAll('.js-random-fade span');
+  const parent = parents.querySelectorAll('.js-random-fade span');
   const selectors = document.querySelectorAll(
     '.area_h.js-random-fade span > div'
   );
@@ -203,9 +203,9 @@ const randomFade10 = (state) => {
     selectors[i].style.opacity = 1;
   };
   if (state) {
-    // parent.forEach((node, i) => {
-    //   node.style.opacity = 1;
-    // });
+    parent.forEach((node, i) => {
+      node.style.opacity = 1;
+    });
     randomArrays.forEach((arr, i) => {
       setTimeout(() => {
         arr.forEach(opacityOn);
