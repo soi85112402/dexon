@@ -2,7 +2,7 @@
 
 @media screen and (max-width:1399px) {
 	/* 모바일 가로, 타블렛 세로 */
-	html,body{font-size: 2.7vw;}
+	html,body{font-size: 2.7vw; min-width: 320px;}
 	/* header */
 	.header{left: 2rem;}
 	.header .btn_logo{top: 2.5rem; display: block; width: 8.7rem; height: 3.3rem; background-size: cover;}
