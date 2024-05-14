@@ -81,7 +81,6 @@ const sectionScrollCheck = () => {
       sectionScrollAct(dom.state, i);
     }
 
-    // false , true, !false ,false
     if (inner == !outte && !dom.state == true) {
       dom.state = true;
       // 시작하는액션
@@ -91,7 +90,6 @@ const sectionScrollCheck = () => {
 };
 
 const sectionScrollAct = (state, i) => {
-  // console.log(state, i);
   switch (i) {
     case 0:
       randomFade(state);
@@ -144,17 +142,6 @@ const randomFade = (state) => {
     });
   }
 
-  // setTimeout(() => {
-  //   if (!state) {
-  //     parent.forEach((node, i) => {
-  //       node.style.opacity = 0;
-  //     });
-  //     selectors.forEach((selector) => {
-  //       selector.style.opacity = 0;
-  //     });
-  //   }
-  // }, 1000);
-
   return;
 };
 
@@ -177,17 +164,6 @@ const randomFadeSen = (state) => {
     });
   }
 
-  // setTimeout(() => {
-  //   if (!state) {
-  //     parent.forEach((node, i) => {
-  //       node.style.opacity = 0;
-  //     });
-  //     selectors.forEach((selector) => {
-  //       selector.style.opacity = 0;
-  //     });
-  //   }
-  // }, 1000);
-
   return;
 };
 
@@ -199,7 +175,6 @@ const randomFade10 = (state) => {
     '.area_h.js-random-fade span > div'
   );
   const opacityOn = (i) => {
-    console.log(selectors);
     selectors[i].style.opacity = 1;
   };
   if (state) {
@@ -213,17 +188,6 @@ const randomFade10 = (state) => {
     });
     return;
   }
-
-  // setTimeout(() => {
-  //   if (!state) {
-  //     parent.forEach((node, i) => {
-  //       node.style.opacity = 0;
-  //     });
-  //     selectors.forEach((selector) => {
-  //       selector.style.opacity = 0;
-  //     });
-  //   }
-  // }, 1000);
 
   return;
 };

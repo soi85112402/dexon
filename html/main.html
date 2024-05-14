@@ -6,9 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,  maximum-scale=1.0" />
 		<link type="text/css" rel="stylesheet" href="../css/common.css" />
 		<script defer src="../js/lib/jquery.min.js"></script>
-		<script defer src="../js/lib/parallax.min.js"></script>
-		<!-- <script defer src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script> -->
-		<script defer src="../js/TweenMax.min.js"></script>
 		<script defer src="../js/common.js"></script>
 		<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G2BSJBY7BN"></script>
@@ -33,13 +30,12 @@
 				<span>We are always on!</span>
 			</div>
 			<div class="bg_video">
-				<video class="bg_video_content" autoplay muted loop>
+				<video class="bg_video_content" preload="auto" autoplay="true" loop="loop" aria-hidden="true" playsinline="" muted="true" volume="0">
 					<source src="../resource/movie/mobile/m_video01.mp4" type="video/mp4" media="(max-width: 1399px)" />
-					<source src="../resource/movie/web/w_video01.mp4" type="video/mp4" />
+					<source src="../resource/movie/web/w_video01.mp4" type="video/mp4" media="(min-width: 1400px)" />
 					Your browser is not supported!
 				</video>
 			</div>
-			<div class="ico_scroll">스크롤 하세요</div>
 		</div>
 
 		<!-- section 02 -->
@@ -50,9 +46,9 @@
 					비즈니스에</span> <strong>실질적인 가치창출의</strong><br class="mobile"> <strong> <span class="ico_lt_on">ON</span> 버튼</strong><span>을 원한다면?</span>
 			</span>
 			<div class="bg_video">
-				<video class="bg_video_content" autoplay muted loop>
+				<video class="bg_video_content" preload="auto" autoplay="true" loop="loop" aria-hidden="true" playsinline="" muted="true" volume="0">
 					<source src="../resource/movie/mobile/m_video02.mp4" type="video/mp4" media="(max-width: 1399px)" />
-					<source src="../resource/movie/web/w_video02.mp4" type="video/mp4" />
+					<source src="../resource/movie/web/w_video02.mp4" type="video/mp4" media="(min-width: 1400px)"  />
 					Your browser is not supported!
 				</video>
 			</div>
@@ -89,25 +85,28 @@
 		<div class="sections sec04">
 			<div class="text">
 				<div class="h2_tit"><h2>기업이념</h2></div>
-				<img src="../images/web/img_sec04.jpg" class="img_sec04_web" alt="">
-				<img src="../images/mobile/img_sec04.jpg" class="img_sec04_mobile" alt="">
-				<div class="ir">
+				<div class="sec04_list">
 					<ul>
 						<li>
-							<strong>On Different</strong>
-							<p>고객 맞춤형, 독창적이고 차별화된 대안 제시</p>
-							<span>고도의 경험과 기술기반에서 고객에 적합한 맞춤형 대안으로 차별화된 DX 전략 제시</span>
+							<div>
+								<strong>On <em>D</em>ifferent</strong>
+								<p>고객 맞춤형,<br />독창적이고 차별화된 대안 제시</p>
+								<span>고도의 경험과 기술기반에서<br />고객에 적합한 맞춤형 대안으로<br />차별화된 DX 전략 제시</span>
+							</div>
 						</li>
 						<li>
-							<strong>On Expert</strong>
-							<p>전문가집단의 최적의 Insight 제공</p>
-							<span>다양한 시각과 전문가적인 경험 기반에서 고객의 니즈를 분석, 최적의 Insight를 제공</span>
+							<div>
+								<strong>On <em>E</em>xpert</strong>
+								<p>전문가집단의 최적의<br />Insight 제공</p>
+								<span>다양한 시각과 전문가적인<br />경험 기반에서 고객의 니즈를 분석,<br />최적의 Insight를 제공</span>
+							</div>
 						</li>
 						<li>
-							<strong>On XaaS</strong>
-							<p>DX의 핵심은
-								Anything as a service</p>
-							<span>고객 DX의 시작과 최종 목표를 위한 전방위적 컨설팅과 솔루션을 제공함으로써, 기업 DX의 핵심인 모든 프로세스 서비스화 최적 파트너</span>
+							<div>
+								<strong>On <em>X</em>aaS</strong>
+								<p>DX의 핵심은<br />Anything as a service</p>
+								<span>고객 DX의 시작과 최종 목표를 위한<br />전방위적 컨설팅과 솔루션을<br class="mobile" />제공함으로써,<br />기업 DX의 핵심인 모든 프로세스<br />서비스화 최적 파트너</span>
+							</div>
 						</li>
 					</ul>
 				</div>
@@ -206,7 +205,7 @@
 					</li>
 					<li class="ico_sec06 type06">
 						<em class="ico_num type06">06</em>
-						<strong>ECM시스템 개발 기술</strong>
+						<strong>ECM 및<br class="mobile" />전자문서 솔루션 보유</strong>
 						<ul>
 							<li>조직의 전자문서관리 개발 기술</li>
 							<li>Smart한 전자문서 &amp; 컨텐츠 서비스 개발 기술</li>

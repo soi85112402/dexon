@@ -143,9 +143,20 @@ label.disabled{color:#999;}
 
 /* section 04 */
 .sec04{ height: 960px; display: flex; justify-content: center; align-items: center; }
-.sec04 .h2_tit{ position: relative; width: 1400px; margin: 0 auto; top: -55px; }
+.sec04 .h2_tit{ width: 1400px; margin: 0 auto; top: -55px; }
 .sec04 .h2_tit h2{ display: block; font-size: 28px; font-weight: 600; color: #000; }
-.img_sec04_mobile{display: none;}
+.sec04 .sec04_list ul{ margin-top: 100px; display: flex; flex-wrap: wrap; justify-content: space-evenly; }
+.sec04 .sec04_list li{ position: relative; width: 420px; height: 420px; border-radius: 50%; display: flex; align-items: center;}
+.sec04 .sec04_list div{ position: relative; width: 100%;text-align: center;}
+.sec04 .sec04_list div em{font-size: 60px; color: #ffffff;}
+.sec04 .sec04_list div > strong{display: block; font-size: 38px; line-height: 1.3em; font-weight: 600; color: #000;}
+.sec04 .sec04_list div > p{display: block; padding-top: 15px; font-size: 24px; line-height: 1.3em; font-weight: 500; color: #000; font-family: 'NanumSquareNeo';}
+.sec04 .sec04_list div > span{display: block; padding-top: 20px; font-size: 20px; line-height: 1.3em; font-weight: 300; color: #000; font-family: 'NanumSquareNeo';}
+.sec04 .sec04_list li:nth-of-type(1){ background-color: #26e9ff;}
+.sec04 .sec04_list li:nth-of-type(2){ background-color: #7393ff;}
+.sec04 .sec04_list li:nth-of-type(3){ background-color: #40d2ff;}
+.sec04 .sec04_list li::before{ position: absolute; left: 10px; top: 10px; right: 10px; bottom: 10px; border: 1px solid #fff; border-radius: 50%; content: '';}
+/* .img_sec04_mobile{display: none;} */
 
 /* section 05 */
 .sec05{ background: url(../images/web/bg_sec05.jpg) 0 0 repeat; padding-bottom: 160px; }

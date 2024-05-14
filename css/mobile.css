@@ -42,12 +42,17 @@
 	.sec03 .desc02{margin-top: .6rem;}
 	.sec03 .desc02 li{font-size: 1rem; margin-top: 2.4rem;}
 	.sec03 .desc02 li strong{font-size: 1.3rem; margin-top: .5rem;}
-	.sec04{height: auto; padding-bottom: 13rem;}
-	.img_sec04_web{display: none;}
-	.img_sec04_mobile{display: block; width: 33.5rem;}
-	.sec04 .h2_tit{width: auto; top: 0; padding: 5.5rem 0 2rem; box-sizing: border-box;}
+	.sec04{height: auto; padding-bottom: 10rem;}
+	.sec04 .sec04_list li::before{left: 0.5rem;top: 0.5rem;right: .5rem;bottom: 0.5rem;}
+	.sec04 .h2_tit{width: auto; top: 0; padding: 5.5rem 2rem 0; box-sizing: border-box;}
 	.sec05 .h2_tit{display: none; width: auto; margin-left: 2rem;}
-	.sec04 .h2_tit h2{font-size: 1.4rem;}
+	.sec04 .h2_tit h2{font-size: 1.4rem; }
+	.sec04 .sec04_list ul{margin-top: 1.5rem;}
+	.sec04 .sec04_list li{width: 24rem; height: 24rem; margin-top: 2.7rem;}
+	.sec04 .sec04_list div em{font-size: 3rem;}
+	.sec04 .sec04_list div > strong{font-size: 1.9rem;}
+	.sec04 .sec04_list div > p{ padding-top: 0.75rem; font-size: 1.5rem;}
+	.sec04 .sec04_list div > span{padding-top: 1rem; font-size: 1.2rem;}
 	.sec05 .h2_tit.mobile{display: block; top: -3.5rem; left: 0; right: 0; width: 32.4rem;}
 	.sec05_list .noshow{display: none;}
 	.sec05 .sec05_list{width: auto; margin: 0 2rem;}
