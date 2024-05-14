@@ -2,7 +2,7 @@
 
 @media screen and (max-width:1399px) {
 	/* 모바일 가로, 타블렛 세로 */
-	html,body{font-size: 2.7vw; min-width: 320px;}
+	html,body{font-size: 2.7vw;}
 	/* header */
 	.header{left: 2rem;}
 	.header .btn_logo{top: 2.5rem; display: block; width: 8.7rem; height: 3.3rem; background-size: cover;}
@@ -10,9 +10,9 @@
 	.header .btn_side span{font-size:1.1rem; vertical-align: middle;line-height: 3.2rem; padding-left: 1rem;}
 	.header .btn_suggest{ width: 11.1rem; height: 3.2rem; background-image: url(../images/mobile/ico_suggest.png); background-size: cover;}
 	.sec01 .ico_scroll{bottom: 8rem; width: 2.7rem; height: 2.7rem; }
-	
+
 	/* common */
-	.sections{min-height: 48rem;}
+	.sections{min-height: 48rem;  min-width: 320px;}
 	.text,.desc{word-wrap: normal; word-break: keep-all;}
 	
 	br.web{display: none;}
@@ -28,10 +28,10 @@
 	.sec01 .text{left: 2rem; bottom: 8rem;}
 	.sec01 .text span{word-wrap: normal; word-break: keep-all; font-size: 3.2rem; line-height: 1.2em;}
 	.sec01 .text span > div{word-wrap: normal; word-break: keep-all; font-size: 3.2rem; line-height: 1.2em;}
-	.sec01 .bg_video{background-image: url(../resource/movie/mobile/01_M_moon_th.png);}
+	.sec01 .bg_video{background-image: url(../resource/movie/mobile/m_video01.png);}
 	.sec02 .text{padding:4.3rem 2.2rem 0; background-size: 1.5rem 1.3rem; font-size: 1.9rem; line-height: 3.5rem; letter-spacing: -0.03rem;}
 	.ico_lt_on{width: 3.7rem; height: 2.1rem; background: url(../images/mobile/img_txt_02_02.png) 0 0 no-repeat; background-size: auto 100%;}
-	.sec02 .bg_video{background-image: url(../resource/movie/mobile/02_M_way_th.png);}
+	.sec02 .bg_video{background-image: url(../resource/movie/mobile/m_video02.png);}
 	.sec03 {min-height: 50rem;}
 	.sec03 .text{width: auto; margin: 0 2.2rem; font-size: 1.4rem; font-weight: 300;}
 	.sec03::before{top: 0; right: 0; margin-right: 0; width: 15.7rem; height: 9.2rem; background: url(../images/mobile/ico_sec02_text02.png) right 0 no-repeat; background-size: cover; }
